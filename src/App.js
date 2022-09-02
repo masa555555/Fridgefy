@@ -5,6 +5,7 @@ import ListOfRecipes from "./components/Recipes/ListOfRecipes";
 
 import Content from "./components/UI/Content";
 import Navbar from "./components/UI/Navbar";
+import Home from "./components/UI/Home";
 
 function App() {
   const dispatch = useDispatch();
@@ -16,7 +17,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <Content />
+      <Home />
+      {/* <Content /> */}
       {/* <ListOfRecipes /> */}
     </>
   );
